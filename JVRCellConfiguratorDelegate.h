@@ -20,7 +20,7 @@
  *
  *  @return An NSString instance containing the identifier
  */
-- (NSString *)fetchReuseIdenrifierforObject:(id)object;
+- (NSString *)fetchReuseIdentifierforObject:(id)object;
 
 /**
  *  Customize a given UITableViewCell or UICollectionViewCell object using properties of an object.
