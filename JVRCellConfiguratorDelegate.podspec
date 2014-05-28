@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JVRCellConfiguratorDelegate"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "A protocol for classes responsible for the creation and configuration of UICollectionViewCell or UITableViewCell objects."
   s.homepage     = "https://github.com/jozsef-vesza/JVRCellConfiguratorDelegate"
   s.license      = "MIT"
