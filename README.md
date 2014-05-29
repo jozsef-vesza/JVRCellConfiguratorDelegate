@@ -4,7 +4,7 @@ A protocol for classes responsible for the creation and configuration of `UIColl
 Cell configurator classes aim to encapsulate the logic that previously belonged in the `tableView:cellForRowAtIndexPath:`/`collectionView:cellForItemAtIndexPath:` method found in the `UITableViewDataSource`/`UICollectionViewDataSource` protocol. They can be used to return the reuse identifier for a cell according to the object it is supposed to show, and to customize its appearance or behavior. The example below shows a possible implementation for table view cells, but the same process can also be used for collection view.
 ```objc
 // MyCellConfigurator.h
-#import "JVRBaseTableViewDataSource.h"
+#import "JVRCellConfiguratorDelegate.h"
 
 @interface MyCellConfigurator : NSObject<JVRCellConfiguratorDelegate>
 @end
